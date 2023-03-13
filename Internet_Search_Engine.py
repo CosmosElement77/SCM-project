@@ -16,7 +16,7 @@ label=Label(structure,text="Cosgo Engine",bg='teal',fg="gold",font=("ComicSans",
 label.pack(side=TOP)
 label.place(x=600,y=350)
 text=StringVar()
-
+#edit
 def searches():
         data=requests.get('https://www.google.com/search?q='+text.get())
         soup=BeautifulSoup(data.content,"html.parser")
